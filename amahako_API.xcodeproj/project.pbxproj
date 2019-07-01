@@ -14,6 +14,7 @@
 		E1BD47A722B770D800C10FDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1BD47A522B770D800C10FDD /* LaunchScreen.storyboard */; };
 		E1BD47B222B770D800C10FDD /* amahako_APITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BD47B122B770D800C10FDD /* amahako_APITests.swift */; };
 		E1BD47BD22B770D800C10FDD /* amahako_APIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BD47BC22B770D800C10FDD /* amahako_APIUITests.swift */; };
+		E1FB14EA22C9A6B3009CFFA0 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FB14E922C9A6B3009CFFA0 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		E1BD47B822B770D800C10FDD /* amahako_APIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = amahako_APIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1BD47BC22B770D800C10FDD /* amahako_APIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = amahako_APIUITests.swift; sourceTree = "<group>"; };
 		E1BD47BE22B770D800C10FDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1FB14E922C9A6B3009CFFA0 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		E1BD479B22B770D700C10FDD /* amahako_API */ = {
 			isa = PBXGroup;
 			children = (
+				E1FB14E922C9A6B3009CFFA0 /* TableViewController.swift */,
 				E1BD479C22B770D700C10FDD /* AppDelegate.swift */,
 				E1BD479E22B770D700C10FDD /* ViewController.swift */,
 				E1BD47A022B770D700C10FDD /* Main.storyboard */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1BD479F22B770D700C10FDD /* ViewController.swift in Sources */,
+				E1FB14EA22C9A6B3009CFFA0 /* TableViewController.swift in Sources */,
 				E1BD479D22B770D700C10FDD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
