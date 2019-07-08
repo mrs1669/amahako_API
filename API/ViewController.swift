@@ -93,6 +93,7 @@ extension UIImageView {
         }
         task.resume()
     }
+    
 }
 
 extension ViewController: UITableViewDataSource {
