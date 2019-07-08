@@ -15,6 +15,7 @@
 		E10AA8F522C9E2CF005A3E9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E10AA8F322C9E2CF005A3E9F /* LaunchScreen.storyboard */; };
 		E10AA90022C9E2CF005A3E9F /* APITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10AA8FF22C9E2CF005A3E9F /* APITests.swift */; };
 		E10AA90B22C9E2CF005A3E9F /* APIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10AA90A22C9E2CF005A3E9F /* APIUITests.swift */; };
+		E18881D522D321A500BA5226 /* wai.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E18881D422D321A500BA5226 /* wai.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		E10AA90622C9E2CF005A3E9F /* APIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = APIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E10AA90A22C9E2CF005A3E9F /* APIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIUITests.swift; sourceTree = "<group>"; };
 		E10AA90C22C9E2CF005A3E9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E18881D422D321A500BA5226 /* wai.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = wai.jpeg; path = ../../../wai.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		E10AA8E722C9E2CC005A3E9F /* API */ = {
 			isa = PBXGroup;
 			children = (
+				E18881D422D321A500BA5226 /* wai.jpeg */,
 				E10AA8E822C9E2CC005A3E9F /* AppDelegate.swift */,
 				E10AA8EA22C9E2CC005A3E9F /* SceneDelegate.swift */,
 				E10AA8EC22C9E2CC005A3E9F /* ViewController.swift */,
@@ -233,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E10AA8F522C9E2CF005A3E9F /* LaunchScreen.storyboard in Resources */,
+				E18881D522D321A500BA5226 /* wai.jpeg in Resources */,
 				E10AA8F222C9E2CF005A3E9F /* Assets.xcassets in Resources */,
 				E10AA8F022C9E2CC005A3E9F /* Main.storyboard in Resources */,
 			);

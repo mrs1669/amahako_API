@@ -9,6 +9,8 @@
 import UIKit
 
 struct Article: Codable {
+    
+    var name: String
     var owner: Owner
     
     struct Owner: Codable{
@@ -72,13 +74,37 @@ class ViewController: UIViewController{
     }
 }
 
+extension UIImageView {
+    
+    func downloadImage(from url: String) {
+        
+        let urlRequest = URLRequest(url: URL(string: url)!)
+        
+        let task = URLSession.shared.dataTask(with: urlRequest) { (data,response,error) in
+            
+            if error != nil {
+                print(error as Any)
+                return
+            }
+            
+            DispatchQueue.main.async {
+                self.image = UIImage(data: data!)
+            }
+        }
+        task.resume()
+    }
+}
+
 extension ViewController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let cell = UITableViewCell(style: .subtitle, reuseIdentifier: "cell")
         let article = articles[indexPath.row]
-        cell.textLabel?.text = article.owner.avatar_url
+        cell.textLabel?.text = article.name
+        cell.detailTextLabel?.text = article.owner.login
+        cell.accessoryType         = UITableViewCell.AccessoryType.detailDisclosureButton
+        cell.imageView?.image      = UIImage(named: "wai.jpeg")
         return cell
     }
     
